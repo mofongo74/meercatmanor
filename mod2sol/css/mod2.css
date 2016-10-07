@@ -1,0 +1,200 @@
+/********** Base styles **********/
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+  font-size: 175%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+div#container {
+  width: auto;
+}
+
+#tab1 {
+   float: right;
+   margin: 0;
+   width: 80px;
+   font-size: 125%;
+   text-align: center;
+   border: 1px solid black;
+   background-color: #c56c7f;
+   font-family: Arial;
+   color: black;
+  
+}
+
+#tab2 {
+   float: right;
+   margin: 0;
+   width: 80px;
+   font-size: 125%;
+   text-align: center;
+   border: 1px solid black;
+   background-color: #cc3308;
+   font-family: Arial;
+   color: white;
+}
+
+#tab3 {
+   float: right;
+   margin:0;
+   width: 80px;
+   font-size: 125%;
+   text-align: center;
+   border: 1px solid black;
+   background-color: #d4c97b;
+   font-family: Arial;
+   color: black;
+}
+
+#text {
+  margin: 0;
+  background-color: grey;
+  font-weight: normal;
+  font-family: Helvetica;
+  color: black;
+}
+
+
+
+/********** desktop devices only **********/
+@media (min-width: 992px) {
+  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
+    float: left;
+    text-align: left;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .col-dt-1 {
+    width: 8.33%;
+  }
+  .col-dt-2 {
+    width: 16.66%;
+  }
+  .col-dt-3 {
+    width: 25%;
+  }
+  .col-dt-4 {
+    width: 30%;
+  }
+  .col-dt-5 {
+    width: 41.66%;
+  }
+  .col-dt-6 {
+    width: 49%;
+  }
+  .col-dt-7 {
+    width: 58.33%;
+  }
+  .col-dt-8 {
+    width: 66.66%;
+  }
+  .col-dt-9 {
+    width: 74.99%;
+  }
+  .col-dt-10 {
+    width: 83.33%;
+  }
+  .col-dt-11 {
+    width: 91.66%;
+  }
+  .col-dt-12 {
+    width: 100%;
+  }
+}
+
+/********** tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .col-tb-1 {
+    width: 8.33%;
+  }
+  .col-tb-2 {
+    width: 16.66%;
+  }
+  .col-tb-3 {
+    width: 25%;
+  }
+  .col-tb-4 {
+    width: 33%;
+  }
+  .col-tb-5 {
+    width: 41.66%;
+  }
+  .col-tb-6 {
+    width: 45%;
+  }
+  .col-tb-7 {
+    width: 58.33%;
+  }
+  .col-tb-8 {
+    width: 66.66%;
+  }
+  .col-tb-9 {
+    width: 74.99%;
+  }
+  .col-tb-10 {
+    width: 83.33%;
+  }
+  .col-tb-11 {
+    width: 91.66%;
+  }
+  .col-tb-12 {
+    width: 92.5%;
+  }
+}
+
+/********** mobile devices only **********/
+@media (max-width: 767px) {
+  .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .col-mb-1 {
+    width: 8.33%;
+  }
+  .col-mb-2 {
+    width: 16.66%;
+  }
+  .col-mb-3 {
+    width: 25%;
+  }
+  .col-mb-4 {
+    width: 33%;
+  }
+  .col-mb-5 {
+    width: 41.66%;
+  }
+  .col-mb-6 {
+    width: 49%;
+  }
+  .col-mb-7 {
+    width: 58.33%;
+  }
+  .col-mb-8 {
+    width: 66.66%;
+  }
+  .col-mb-9 {
+    width: 74.99%;
+  }
+  .col-mb-10 {
+    width: 83.33%;
+  }
+  .col-mb-11 {
+    width: 91.66%;
+  }
+  .col-mb-12 {
+    width: 90%;
+  }
+}
+
+}
